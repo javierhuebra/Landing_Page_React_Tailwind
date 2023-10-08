@@ -11,6 +11,7 @@ export default defineConfig({
     postcss,
   },
   plugins: [react()],
+  base: "/Landing_Page_React_Tailwind/", // for github pages
   resolve: {
     alias: [
       {
@@ -26,5 +27,5 @@ export default defineConfig({
       transformMixedEsModules: true,
     }
   },
-   base: "/Landing_Page_React_Tailwind/", 
+   
 })

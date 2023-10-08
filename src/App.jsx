@@ -37,10 +37,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route path="/reset-password" element={<ResetPassword />} />
+        <Route exact path="/Landing_Page_React_Tailwind" element={<Home />} />
+        <Route path="/Landing_Page_React_Tailwind/signin" element={<SignIn />} />
+        <Route path="/Landing_Page_React_Tailwind/signup" element={<SignUp />} />
+        <Route path="/Landing_Page_React_Tailwind/reset-password" element={<ResetPassword />} />
       </Routes>
     </>
   );

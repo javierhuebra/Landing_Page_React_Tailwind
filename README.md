@@ -27,3 +27,5 @@ Vite + Tailwind
 - Luego y cada vez que se actualice el proyecto:
     npm run build
     npm run deploy
+
+- Acordarse de cambiar el nombre del rute y agregar el nombre del repo que sino no detecta las rutas.
